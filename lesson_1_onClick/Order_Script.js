@@ -13,3 +13,5 @@ function orderInfoAlert() {
 function factoryInfoAlert() {
     alert('我們工廠位於新北市，通過國際 ISO9001 認證，品質讓您放心！');
 }
+
+//調整檔名
