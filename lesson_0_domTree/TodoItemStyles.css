@@ -1,0 +1,97 @@
+/* 背景和間距 */
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 待辦事項清單 */
+#todoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#todoList li {
+    margin-bottom: 20px;
+    /* 調整項目間距為20px */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+/* 勾選checkbox後待辦事項文字的樣式 */
+.checkbox:checked~span {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* 新增待辦事項輸入欄 */
+#todoItem {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* 新增待辦事項按鈕 */
+.addItem-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addItem-button:hover {
+    background-color: #0056b3;
+}
+
+/* 刪除按鈕樣式 */
+.delete-selected-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-selected-button:hover {
+    background-color: #c82333;
+}
+
+/* Check box 外觀美化 */
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: #007bff;
+}
+
+/* 勾選後的樣式 */
+.checkbox:checked::before {
+    content: "\2713";
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    letter-spacing: 3px;
+
+}

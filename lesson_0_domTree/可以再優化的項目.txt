@@ -1,0 +1,2 @@
+1, 建立後端，存在sqlite，打包成可以執行的 WebApp(往可以離線使用的方向去做設計)，或是放在azure AppService
+感覺可以用Electron js 製作。

@@ -89,3 +89,6 @@ lerna-debug.log
 # System Files
 .DS_Store
 Thumbs.db
+/DOM樹.jpg
+/子元素父元素.jpg
+/利用Apend讓元素收養元素變成子元素.jpg

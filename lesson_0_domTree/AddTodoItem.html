@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTodoList</title>
+    <link rel="stylesheet" href="TodoItemStyles.css">
+</head>
+
+<body>
+    <h1>待辦事項</h1>
+    <div>
+        <ul id="todoList">
+            <li>
+                <input type="checkbox" class="checkbox" id="todoItemCheckbox">
+                <span>倒垃圾</span>
+            </li>
+            <li>
+                <input type="checkbox" class="checkbox" id="todoItemCheckbox">
+                <span>繳電話費</span>
+            </li>
+            <li>
+                <input type="checkbox" class="checkbox" id="todoItemCheckbox">
+                <span>採買本週食材</span>
+            </li>
+        </ul>
+        <button class="delete-selected-button">刪除選取項目</button>
+    </div>
+    <p></p>
+    <div>
+        <input type="text" id="todoItem" name="todoItem" placeholder="請輸入待辦事項...">
+        <button class="addItem-button" id="addItemButton">新增待辦事項</button>
+    </div>
+    <script src="TodoItemScript.js"></script>
+</body>
+
+</html>
